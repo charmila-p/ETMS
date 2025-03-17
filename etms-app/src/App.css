@@ -1,0 +1,129 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.circular_image {
+  width: 40px;
+  height: 40px;
+  border-radius:50%;
+  overflow: hidden;
+  }
+.circular_image img{
+   width: 100%;
+}
+/* Ensure styles are only applied to the Login component */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+/* Card Styling */
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  border: 1px solid #add8e6;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Card Header */
+.login-card-header {
+  background-color: #007bff;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Card Body */
+.login-card-body {
+  padding: 20px;
+}
+
+/* Form Fields */
+.login-form-control {
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ced4da;
+  width: 100%;
+}
+
+/* Labels */
+.login-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Button */
+.login-btn-primary {
+  width: 100%;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #007bff;
+  border: none;
+  transition: 0.3s;
+  color: white;
+}
+
+.login-btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Alert Message */
+.login-alert {
+  text-align: center;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ffcccc;
+  color: #d8000c;
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
